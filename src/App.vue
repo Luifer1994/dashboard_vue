@@ -30,7 +30,12 @@
                     </li>
                     <li>
                         <router-link to="/about">
-                            <span class="icon home" aria-hidden="true"></span>Sobre nosotros
+                            <span class="icon user-3" aria-hidden="true"></span>Usuarios
+                        </router-link>
+                    </li>
+                     <li>
+                        <router-link to="/centeroperation">
+                            <span class="icon home" aria-hidden="true"></span>Centros OP
                         </router-link>
                     </li>
                 </ul>
@@ -57,7 +62,7 @@
             <a href="##" class="sidebar-user">
                 <span class="sidebar-user-img">
                     <picture>
-                        <source srcset="/public/img/avatar/avatar-illustrated-01.webp" type="image/webp"><img src="/public/img/avatar/avatar-illustrated-01.png" alt="User name"></picture>
+                        <source srcset="../src/assets/img/avatar/avatar-illustrated-01.webp" type="image/webp"><img src="../src/assets/img/avatar/avatar-illustrated-01.png" alt="User name"></picture>
                 </span>
                 <div class="sidebar-user-info">
                     <span class="sidebar-user__title">Nafisa Sh.</span>
@@ -91,7 +96,7 @@
                             <span class="sr-only">My profile</span>
                             <span class="nav-user-img">
                                 <picture>
-                                    <source srcset="/public/img/avatar/avatar-illustrated-02.webp" type="image/webp"><img src="/public/img/avatar/avatar-illustrated-02.png" alt="User name"></picture>
+                                    <source srcset="../src/assets/img/avatar/avatar-illustrated-02.webp" type="image/webp"><img src="../src/assets/img/avatar/avatar-illustrated-02.png" alt="User name"></picture>
                             </span>
                         </button>
                         <ul class="users-item-dropdown nav-user-dropdown dropdown">
