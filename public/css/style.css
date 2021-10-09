@@ -1749,8 +1749,9 @@ button.disabled:focus {
 }
 
 .badge-pending {
-  color: #ffb648;
-  background-color: rgba(255, 172, 50, 0.1);
+  color: #ffffff;
+  background-color: rgb(255, 182, 74);
+  font-weight: bold;
 }
 
 .badge-disabled {
@@ -1862,9 +1863,6 @@ label {
   padding: 5px 16px;
 }
 
-.users {
-  /* Users Table */
-}
 
 .users-table table {
   width: 100%;
